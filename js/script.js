@@ -10,16 +10,16 @@ function myElementCreate(){
 
     let elementoDiv = document.createElement("div");
 
-    elementoDiv.className = " square";
-
     return elementoDiv;
 }
 
-if(sceltaUtente === "facile"){
+if (sceltaUtente === "facile") {
 
     for (let i = 0; i < 49; i++){
 
         let divEl = myElementCreate();
+
+        divEl.className = " square1";
     
         divEl.addEventListener('click',
         
@@ -36,6 +36,8 @@ if(sceltaUtente === "facile"){
     for (let i = 0; i < 64; i++){
 
         let divEl = myElementCreate();
+
+        divEl.className = " square2";
     
         divEl.addEventListener('click',
         
@@ -52,6 +54,8 @@ if(sceltaUtente === "facile"){
     for (let i = 0; i < 100; i++){
 
         let divEl = myElementCreate();
+
+        divEl.className = " square3";
     
         divEl.addEventListener('click',
         
