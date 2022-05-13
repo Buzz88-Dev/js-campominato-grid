@@ -29,6 +29,12 @@
     border: solid 1px black;
 }
 
+.square4 {
+    flex-basis: calc(100% / 20);
+    height: calc(100% / 20);
+    border: solid 1px black;
+}
+
 .clickedaqua{
     background-color: aqua;
 }
